@@ -99,10 +99,12 @@ main{
     width:1140px;
     margin:0 auto;
 }
+/* about section started */
 .about{
     text-align: center;
     background-color: #FFF8F3;
     padding:100px;
+    margin-bottom:10px;
 }
 .about-info-container{
     display: flex;
@@ -118,5 +120,65 @@ main{
     font-size: 20px;
     font-weight: 800;
     margin-top:0px;
+}
+/* What I do styles */
+.what-i-do-content{
+    text-align: center;
+    padding:30px 100px;
+    margin-bottom:30px;
+}
+.skill{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.skill-content{
+    padding:20px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+.r-text-center{
+    text-align: center;
+}
+.qualification{
+    display: flex;
+    gap:30px;
+}
+.education-instute{
+    color:#757575;
+}
+.education-description{
+    color:#757575;
+}
+.r-btn-center{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    max-width:1140px;
+    margin:0 auto;
+}
+.footer-flex{
+    display: flex;
+}
+.connect{
+    width:50%;
+}
+.message{
+    width:50%;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom:20px;
+    padding:30px;
+    border:0px;
+    color:#757575;
+    border-radius: 5px;
+    width:100%;
+    font-size:20px;
+    
 }
 
